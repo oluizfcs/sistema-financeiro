@@ -1,0 +1,14 @@
+# https://docs.docker.com/go/build-context-dockerignore/
+
+**/.dockerignore
+**/.env
+**/.git
+**/.gitignore
+**/compose.y*ml
+!**/composer.json
+!**/composer.lock
+**/Dockerfile*
+**/node_modules
+**/vendor
+LICENSE*
+README*

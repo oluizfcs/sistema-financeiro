@@ -1,0 +1,6 @@
+/app/vendor/
+/app/config/.env
+# /app/config/database/seed_generated.sql
+/app/Logs/
+/Logs/
+.phpunit.result.cache

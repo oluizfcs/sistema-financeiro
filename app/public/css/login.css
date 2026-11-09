@@ -1,0 +1,42 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 25px;
+    background: #0b0050;
+    overflow: hidden;
+}
+
+#login {
+    background: #ffffff;
+    padding: 100px;
+    border-radius: 15px;
+}
+
+#login input {
+    font-size: large;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1.5px solid #0b0050;
+}
+
+#submit {
+    background: #0b0050;
+    color: #fff;
+    font-size: large;
+}
+
+@media (max-width: 450px) {
+    #login {
+        padding: 45px;
+        transform: translateY(-150px);
+    }
+}
