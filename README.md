@@ -9,6 +9,9 @@
 docker compose up
 ```
 
+Acessar sistema:
+http://localhost:8080
+
 > [!NOTE]
 > Rodar testes
 > ```bash
